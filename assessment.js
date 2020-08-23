@@ -2,7 +2,8 @@
     'use strict';
     const userNameInput = document.getElementById('user-name');
     const assessmentButton = document.getElementById('assessment');
-    const resultDivided = document.getElementById('tweet-area');
+    const resultDivided = document.getElementById('result-area');
+    const tweetDivided = document.getElementById('tweet-area');
     
     /**
     * 指定した要素の子どもを全て除去する
